@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.container {
+    width: 53%;
+    margin: auto;
+}
+
+.header {
+    margin-top: 5%;
+    width: 52.7%;
+    display: flex;
+    border: 3px solid silver;
+}
+
+img {
+    width: 20%;
+}
+
+.h1 {
+    font-weight: 800;
+    font-size: 33px;
+    color: blue;
+    margin-bottom: 0;
+}
+
+.h2 {
+    font-weight: 800;
+    margin-top: 0;
+    font-size: 33px;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+    color: black;
+}
+
+.text {
+    padding: 15px;
+    width: 70%;
+}
+
+.rules h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rules .yellow {
+    background: #ffcc00;
+}
+
+.rules .blue {
+    background: #3399ff;
+}
