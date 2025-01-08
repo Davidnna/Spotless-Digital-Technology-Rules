@@ -6,24 +6,26 @@ body {
 }
 
 .container {
-    width: 53%;
+    width: 60%;
     margin: auto;
 }
 
 .header {
     margin-top: 5%;
-    width: 52.7%;
+    width: 59.9%;
     display: flex;
-    border: 3px solid silver;
+    border: 1px solid silver;
 }
 
 img {
     width: 20%;
+    height: 20%;
+    margin: auto;
 }
 
 .h1 {
     font-weight: 800;
-    font-size: 33px;
+    font-size: 3.5vw;
     color: blue;
     margin-bottom: 0;
 }
@@ -31,31 +33,33 @@ img {
 .h2 {
     font-weight: 800;
     margin-top: 0;
-    font-size: 33px;
+    font-size: 3.5vw;
     color: red;
     text-shadow: 2px 2px 2px black;
 }
 
 .circle {
-    width: 75px;
-    height: 75px;
+    width: 17%;
+    height: 9.5vw;
     border-radius: 50%;
     background-color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xxx-large;
+    font-size: 6vw;
     color: black;
+    margin: auto;
 }
 
 .text {
-    padding: 15px;
+    padding: 3%;
     width: 70%;
 }
 
 .rules h2 {
     text-align: center;
     margin: 0;
+    font-size: 2.4vw;
     padding: 10px;
     display: flex;
     justify-content: space-around;
