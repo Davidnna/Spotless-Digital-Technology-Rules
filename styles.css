@@ -5,16 +5,14 @@ body {
     color: aliceblue;
 }
 
-.container {
-    width: 60%;
-    margin: auto;
-}
-
 .header {
-    margin-top: 5%;
-    width: 59.9%;
     display: flex;
     border: 1px solid silver;
+}
+
+.container {
+    width: 60%;
+    margin: 5% auto 0;
 }
 
 img {
@@ -36,6 +34,10 @@ img {
     font-size: 3.5vw;
     color: red;
     text-shadow: 2px 2px 2px black;
+}
+
+.rules {
+    margin: 0 auto 5%;
 }
 
 .circle {
@@ -71,4 +73,37 @@ img {
 
 .rules .blue {
     background: #3399ff;
+}
+
+@media (max-width: 718px) {
+    .header {
+        gap: 10%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    img {
+        width: 30%;
+        height: 30%;
+        padding: 0 0 0 3%;
+    }
+
+    .h1 {
+        font-size: 6.1vw;
+    }
+    
+    .h2 {
+        font-size: 5.1vw;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .circle {
+        height: 12vw;
+    }
+    
+    .rules h2 {
+        font-size: 5vw;
+    }
 }
