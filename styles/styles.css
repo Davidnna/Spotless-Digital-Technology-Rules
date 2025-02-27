@@ -5,9 +5,10 @@ body {
     color: aliceblue;
 }
 
+/* Header */
 .header {
     display: flex;
-    border: 1px solid silver;
+    border: 0.1em solid silver;
 }
 
 .container {
@@ -15,32 +16,56 @@ body {
     margin: 5% auto 0;
 }
 
-img {
+/* Logo */
+.header figure {
+    margin: 0;
     width: 20%;
-    height: 20%;
     margin: auto;
 }
 
-.h1 {
+.header figure img {
+    width: 100%;
+}
+
+.header .container h1 {
     font-weight: 800;
     font-size: 3.5vw;
+}
+
+.header .container .h1 {
     color: blue;
     margin-bottom: 0;
 }
 
-.h2 {
-    font-weight: 800;
+.header .container .h2 {
     margin-top: 0;
-    font-size: 3.5vw;
     color: red;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 0.05em 0.05em 0.05em black;
 }
 
+/* Rules */
 .rules {
     margin: 0 auto 5%;
 }
 
-.circle {
+.rules h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.4vw;
+    padding: 0.4em;
+    display: flex;
+}
+
+.rules .yellow {
+    background: #ffcc00;
+}
+
+.rules .blue {
+    background: #3399ff;
+}
+
+/* Number */
+.rules h2 .circle {
     width: 17%;
     height: 9.5vw;
     border-radius: 50%;
@@ -53,28 +78,13 @@ img {
     margin: auto;
 }
 
-.text {
+/* Rule */
+.rules h2 .text {
     padding: 3%;
     width: 70%;
 }
 
-.rules h2 {
-    text-align: center;
-    margin: 0;
-    font-size: 2.4vw;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.rules .yellow {
-    background: #ffcc00;
-}
-
-.rules .blue {
-    background: #3399ff;
-}
-
+/* Responsive Design */
 @media (max-width: 718px) {
     .header {
         gap: 10%;
@@ -84,26 +94,24 @@ img {
         width: 80%;
     }
 
-    img {
+    .header figure{
         width: 30%;
-        height: 30%;
         padding: 0 0 0 3%;
     }
 
-    .h1 {
+    .header .container .h1 {
         font-size: 6.1vw;
     }
     
-    .h2 {
+    .header .container .h2 {
         font-size: 5.1vw;
-        text-shadow: 2px 2px 2px black;
-    }
-
-    .circle {
-        height: 12vw;
     }
     
     .rules h2 {
         font-size: 5vw;
+    }
+
+    .rules h2 .circle {
+        height: 12vw;
     }
 }
